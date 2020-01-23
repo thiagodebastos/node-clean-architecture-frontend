@@ -1,0 +1,19 @@
+.contact-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: whitesmoke;
+  color: black;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+    margin 0.15s ease-in-out;
+  will-change: transform, margin;
+}
+
+.contact-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  margin: 24px 0 36px;
+}
